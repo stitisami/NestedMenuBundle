@@ -1,0 +1,23 @@
+nested_menu_backend:
+    path:     /menuNested
+    defaults: { _controller: NestedMenuBundle:Backend:index }
+
+nested_menu_front:
+    path:     /menuNestedFront
+    defaults: { _controller: NestedMenuBundle:Front:index }
+
+nested_menu_edit:
+    path:     /menuNested/edit
+    defaults: { _controller: NestedMenuBundle:Backend:edit }
+
+nested_menu_remove:
+    path:     /menuNested/remove
+    defaults: { _controller: NestedMenuBundle:Backend:remove }
+
+nested_menu_add:
+    path:     /menuNested/add
+    defaults: { _controller: NestedMenuBundle:Backend:add }
+
+nested_menu_drag:
+    path:     /menuNested/drag
+    defaults: { _controller: NestedMenuBundle:Backend:drag }

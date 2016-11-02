@@ -1,0 +1,13 @@
+services:
+#    nested_menu.example:
+#        class: NestedMenuBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+    app.twig_extension:
+        class: NestedMenuBundle\Twig\NestedMenuExtension
+        public: false
+        arguments: ['@service_container']
+        tags:
+            - { name: twig.extension }
+    front_menu_controller:
+        class: NestedMenuBundle\Service\NestedMenuService
+        arguments: ['@templating', '@doctrine']
