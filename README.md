@@ -70,9 +70,3 @@ In your template twig insert this code
     {{ nestedMenu() }}
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Administration Nested Menu
-
-    http://localhost/menuNested
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
