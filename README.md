@@ -1,4 +1,4 @@
-Using NestedMenuBundle
+Symfony NestedMenuBundle
 ===================
 
 Welcome to NestedMenuBundle - a Symfony bundle to create a nested menu
