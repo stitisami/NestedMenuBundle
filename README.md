@@ -47,34 +47,30 @@ file of your project:
 
 Step 3: update schema
 
-php bin/console doctrine:schema:update --force
+    php bin/console doctrine:schema:update --force
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Step 4: install assets
 
-php bin/console assets:install
+    php bin/console assets:install
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Step 5:foad Fixtures with DoctrineFixturesBundle
 
-php bin/console doctrine:fixtures:load
+    php bin/console doctrine:fixtures:load
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Usage
 
 In your template twig insert this code
-
 ![Frontend Nested Menu](http://i.imgur.com/VE7YKdR.jpg)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-{{ nestedMenu() }}
+    {{ nestedMenu() }}
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Administration Nested Menu
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-http://localhost/menuNested
+    http://localhost/menuNested
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
