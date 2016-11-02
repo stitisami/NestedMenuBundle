@@ -17,13 +17,15 @@ Step 1: Download the Bundle
 Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
+
     $ composer require stiti/nestedmenubundle 1.0.x-dev
 
-Step 2: Enable the Bundle
-~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Step 2: Enable the Bundle
 Then, enable the bundle by adding the following line in the ````app/AppKernel.php````
 file of your project:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
     <?php
     // app/AppKernel.php
@@ -58,7 +60,7 @@ Step 4: install assets
 Step 5:foad Fixtures with DoctrineFixturesBundle
 
     php bin/console doctrine:fixtures:load
-~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Usage
 
