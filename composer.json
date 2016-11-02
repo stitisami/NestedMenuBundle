@@ -1,5 +1,5 @@
 {
-    "name": "stiti/NestedMenuBundle",
+    "name": "stiti/nestedmenubundle",
     "type": "library",
     "description": "Nested Menu Symfony Bundle",
     "keywords": ["NestedMenu", "Menu", "Symfony"],
