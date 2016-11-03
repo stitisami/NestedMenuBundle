@@ -1,7 +1,7 @@
 {
     "name": "stiti/nestedmenubundle",
     "type": "symfony-bundle",
-    "Language" : "PHP";
+    "Language" : "PHP",
     "description": "Nested Menu Symfony Bundle",
     "keywords": ["NestedMenu", "Symfony3", "Nested", "Managing menus", "Navigation", "Menu", "Symfony"],
     "homepage": "https://github.com/stitisami/NestedMenuBundle",
