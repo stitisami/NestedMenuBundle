@@ -24,13 +24,15 @@ class NestedMenuExtension extends \Twig_Extension
         );
 		
 		
-    }
-
-	
-
+    }	
     public function nestedMenuFunction()
     {
         return $this->container->get('front_menu_controller')->loadMenuNested();
+    }
+	
+  public function getName()
+    {
+        return 'menuappnested';
     }
 	
 }
