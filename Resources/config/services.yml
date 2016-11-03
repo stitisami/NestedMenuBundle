@@ -1,10 +1,7 @@
 services:
-#    nested_menu.example:
-#        class: NestedMenuBundle\Example
-#        arguments: ["@service_id", "plain_value", %parameter%]
-    app.twig_extension:
+    menuappnested:
         class: NestedMenuBundle\Twig\NestedMenuExtension
-        public: false
+        public: true
         arguments: ['@service_container']
         tags:
             - { name: twig.extension }
