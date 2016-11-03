@@ -2,7 +2,7 @@
     "name": "stiti/nestedmenubundle",
     "type": "library",
     "description": "Nested Menu Symfony Bundle",
-    "keywords": ["NestedMenu",  "Symfony3", "Nested", "Managing menus", "Navigation" "Menu", "Symfony"],
+    "keywords": ["NestedMenu", "Symfony3", "Nested", "Managing menus", "Navigation", "Menu", "Symfony"],
     "homepage": "https://github.com/stitisami/NestedMenuBundle",
     "license": "MIT",
     "authors": [
