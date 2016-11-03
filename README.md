@@ -70,3 +70,23 @@ In your template twig insert this code
     {{ nestedMenu() }}
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+import routing file in your project
+
+    nested_menu:
+        resource: "@NestedMenuBundle/Resources/config/routing.yml"
+        prefix: /
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+activate Serializer Component in config.yml
+
+    serializer:      { enable_annotations: true }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Administration Menu :
+
+    http://MY_PROJECT/menuNested
+    
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
